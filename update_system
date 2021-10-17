@@ -1,0 +1,4 @@
+#!/bin/bash
+#all commands needed to update the system in one
+
+sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y 

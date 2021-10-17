@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#symlinks every program in this folder to /bin/bash
+
+sudo ln update_system /bin/sysupdate
