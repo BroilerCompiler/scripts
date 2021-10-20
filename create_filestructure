@@ -1,0 +1,5 @@
+#!/bin/bash
+#execute this file to get a standardized file structure.
+#TODO: Configurability: Confidence levels / level of detail
+ls .
+mkdir 00 01_Documents 02_Bilder 03_Videos ...
