@@ -1,5 +1,21 @@
 #!/bin/bash
-#execute this file to get a standardized file structure.
+#execute this file to get a standardized file structure in the STRUCTURE subfolder.
 #TODO: Configurability: Confidence levels / level of detail
-ls .
-mkdir 00 01_Documents 02_Bilder 03_Videos ...
+
+mkdir STRUCTURE && cd STRUCTURE
+
+mkdir 00 Backups Dokumente Bilder Filme Videos Musik Notizen ITStuff
+cp ../filestructure/00.md 00/Readme.md
+cp ../filestructure/Backups.md Backups/Readme.md
+cp ../filestructure/Dokumente.md Dokumente/Readme.md
+cp ../filestructure/Bilder.md Bilder/Readme.md
+cp ../filestructure/Filme.md Filme/Readme.md
+cp ../filestructure/Videos.md Videos/Readme.md
+cp ../filestructure/Musik.md Musik/Readme.md
+cp ../filestructure/Notizen.md Notizen/Readme.md
+cp ../filestructure/ITStuff.md ITStuff/Readme.md
+
+mkdir Backups/kodi Backups/nextcloud Backups/Kontakte Backups/Kalender Backups/Mail
+
+mkdir Dokumente/00 Dokumente/01_Arbeit Dokumente/01_Studium Dokumente/02_Finanzen Dokumente/03_Rechnungen Dokumente/04_persDaten Dokumente/05_SFG_Tannheim Dokumente/06_MSV-Protokolle Dokumente/07_Versicherungen Dokumente/08_Klaviernoten
+
