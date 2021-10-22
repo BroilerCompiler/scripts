@@ -17,5 +17,5 @@ cp ../filestructure/ITStuff.md ITStuff/Readme.md
 
 mkdir Backups/kodi Backups/nextcloud Backups/Kontakte Backups/Kalender Backups/Mail
 
-mkdir Dokumente/00 Dokumente/01_Arbeit Dokumente/01_Studium Dokumente/02_Finanzen Dokumente/03_Rechnungen Dokumente/04_persDaten Dokumente/05_SFG_Tannheim Dokumente/06_MSV-Protokolle Dokumente/07_Versicherungen Dokumente/08_Klaviernoten Dokumente/09_GPX
+mkdir Dokumente/00 Dokumente/01_Arbeit Dokumente/01_Studium Dokumente/02_Finanzen Dokumente/03_Rechnungen Dokumente/04_persDaten Dokumente/05_SFG_Tannheim Dokumente/06_MSV-Protokolle Dokumente/07_Versicherungen Dokumente/08_Klaviernoten Dokumente/09_GPX Dokumente/10_Tickets
 
